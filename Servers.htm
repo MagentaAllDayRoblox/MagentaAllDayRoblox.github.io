@@ -8,5 +8,21 @@
     <ul class="w3-navbar w3-card-8 w3-light-blue">
       <li><a class="w3-hover-yellow" href="https://MagentaAllDayRoblox.github.io">Home</a></li>
     </ul>
+    <nav class="w3-sidenav w3-collapse w3-white" style="width:200px" id="mySidenav">
+      <a class="w3-hover-teal" href="#" onclick="w3_close()">Close &times;</a>
+      <a class="w3-hover-teal" href="https://web.roblox.com/games/12468179/Robloxity-read-description-V4-3-3">Robloxity</a>
+    </nav>
+    <div class="w3-main" style="margin-left:200px">
+      <span class="w3-opennav w3-hide-large" onclick="w3_open()">&#9776;</span>
+      <h1>Look at the side navigation bar!</h1>
+    </div>
+    <script>
+      function w3_open() {
+        document.getElementById("mySidenav").style.display = "block"
+      }
+      function w3_close() {
+        document.getElementById("mySidenav").style.display = "none"
+      }
+    </script>
   </body>
 </html>
